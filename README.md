@@ -1,24 +1,11 @@
-# vue3_bilibili
+## 关于项目
 
-## Project setup
-```
-npm install
-```
+该项目使用的主要技术栈为：vue3+ts，项目的接口采用mock模拟，项目还原了哔哩哔哩的移动端，主要为首页和单个的视频页面
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 使用方法
 
-### Compiles and minifies for production
-```
-npm run build
-```
+使用`npm install`下载所需要的包，这里我的node为12版本，如果觉得慢的话，可以自行去配置yarn或者cnpm
 
-### Lints and fixes files
-```
-npm run lint
-```
+使用`npm run serve`启动项目，启动完成了就可以去浏览器输入`http:127.0.0.1:8080`这里要按照自己的终端决定，可能你的本地终端占用。
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+编译打包和其他的操作依然是vue的其他指令。
